@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from "./components/Header";
+import Contacts from "./components/Contacts";
 
-export const App = () => {
+
+function App() {
   return (
-    <div>App</div>
-  )
+    <div className="App">
+      <Header />
+
+      <div className="container">
+        <Contacts />
+
+      </div>
+    </div>
+  );
 }
 
 export default App
