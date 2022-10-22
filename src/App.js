@@ -1,18 +1,14 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from "./components/Header";
 import Contacts from "./components/Contacts";
+import Table from './components/Table'
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
-      <div className="container">
-        <Contacts />
-
-      </div>
+       <Table />
+       {/* <Contacts /> */}
     </div>
   );
 }
