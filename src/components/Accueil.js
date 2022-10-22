@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Contact from './Contact'
 
-export default class Table extends Component {
+export default class Accueil extends Component {
     render() {
         return (
             <>

@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Contacts from "./components/Contacts";
-import Table from './components/Table'
+import Accueil from './components/Accueil';
 
 
 function App() {
   return (
     <div className="App">
-       <Table />
+       <Accueil />
        {/* <Contacts /> */}
     </div>
   );
