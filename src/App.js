@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <div className="gradient__bg">
         <Header />
-      </div>
         <Calendrier />
+      </div>
         <Competitions />
         <Classement />
         <Equipes />
