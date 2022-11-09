@@ -3,8 +3,12 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div className='container'>Header</div>
-  )
-}
+        <div>
+           Header
+        </div>
+         
+        
+  );
+} 
 
 export default Header
