@@ -3,7 +3,7 @@ import './calendrier.css'
 
 const Calendrier = () => {
   return (
-    <div>Calendrier</div>
+    <div className='container'>Calendrier</div>
   )
 }
 

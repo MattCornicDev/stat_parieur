@@ -3,7 +3,7 @@ import './equipes.css'
 
 const Equipes = () => {
   return (
-    <div>Equipes</div>
+    <div className='container'>Equipes</div>
   )
 }
 

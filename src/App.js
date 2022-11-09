@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Actualites, Calendrier, Classement, Competitions, Equipes, Footer, Header, Joueurs, Statistiques} from './components'
+import './app.css'
 
 
 function App() {
