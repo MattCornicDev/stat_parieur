@@ -1,13 +1,26 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Accueil from './components/Accueil';
+import { Actualites, Calendrier, Classement, Competitions, Equipes, Footer, Header, Joueurs, Statistiques } from './components'
+import './App.css'
 
 
 function App() {
   return (
     <div className="App">
-       <Accueil />
-       {/* <Contacts /> */}
+      <div className="gradient__bg">
+        <Header />
+        <Calendrier />
+      </div>
+        <Competitions />
+        <Classement />
+        <Equipes />
+        <Joueurs />
+        <Statistiques />
+        <Actualites />
+        <Footer />
+      
+
+
     </div>
   );
 }
