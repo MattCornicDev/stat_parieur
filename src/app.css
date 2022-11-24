@@ -91,3 +91,8 @@
       margin: 4rem 2rem;
     }  
   }
+
+  .card{
+    background: rgba(0, 40, 83, 1);
+    color: aliceblue;
+}

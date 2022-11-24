@@ -12,32 +12,38 @@ function App() {
         <Header />
       </div>
 
-      <div className="row">
-        <div className="col"><Calendrier /></div>
-        <div className="col"><Competitions /></div>
+      <div className="row m-3">
+        <div className="col-md-4"><Calendrier /></div>
+        <div className="col-md-8"><Competitions /></div>
       </div>
 
-      <div className="row">
+      <div className="row m-3">
         <div className="col-md-4"><Classement /></div>
         <div className="col-md-8">
-          <div className="col-md-6"> <Equipes /></div>
-          <div className="col-md-6"><Joueurs /></div>
+          <div> <Equipes /></div>
+          <div><Joueurs /></div>
         </div>
 
       </div>
 
-      <div>
-        <Statistiques />
+      <div className="row m-3">
+        <div className="col-md-12">
+          <Statistiques />
+        </div>
       </div>
 
-      <div>
-        <Actualites />
+      <div className="row m-3">
+        <div className="col-md-12">
+          <Actualites />
+        </div>
       </div>
 
-      <div>
-        <Footer />
+      <div className="row">
+        <div className="col-md-12">
+          <Footer />
+        </div>
       </div>
-    </div>
+    </div >
   );
 }
 

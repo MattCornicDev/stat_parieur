@@ -4,7 +4,7 @@ import './calendrier.css'
 const Calendrier = () => {
   return (
     <>
-      <div className="card">
+      <div className="card w-auto">
         <div className="card-body">
           <h5 className="card-title">Calendrier, Match</h5>
           <h6 className='card-subtitle mb-2 text-muted'>sous titre</h6>
