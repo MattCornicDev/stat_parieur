@@ -3,8 +3,13 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
+    <footer>
+      <div>
+        <p className='footer'> © 2022 Copyright | Devéno</p>
+      </div>
+    </footer>
+  );
+
 }
 
 export default Footer
