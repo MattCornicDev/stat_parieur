@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './statistiques.css'
+import axios from 'axios'
+import { FC } from 'react'
 
-const Statistiques = () => {
+
+
+const Statistiques = (props) => {
+
+  const [data, setData] = useState([]);
+  const fetchData = () => {
+    axios
+      .get('https://v3.football.api-sports.io/status')
+      .then((res) => {
+        console.log(res)
+        setData(res.data)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+  }
+  useEffect(() => {
+    fetchData()
+  }, [])
+
   return (
     <>
       <div className="card w-auto">
